@@ -19,7 +19,7 @@ def longestPalindrome(s: str) -> str:
                 dp[i][j] = True
                 if length > max_len:
                     max_len = length
-                    start = i
+                    start = i  b                                                                                                                                                                                                                    
 
     return s[start:start + max_len]
 

@@ -5,7 +5,7 @@ def strStr(haystack,needle):
         return -1
     return haystack.index(needle)
 
-haystack="pythoncodeing"
-needle="a"
+haystack=input("enter the string:")
+needle=input("enter the element of the string:")
 result=strStr(haystack,needle)
 print(result)

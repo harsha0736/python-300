@@ -17,5 +17,5 @@ def addStrings(num1: str, num2: str) -> str:
 
 num1="111"
 num2="22"
-result=addStrings(num1: str, num2: str)
+result=addStrings(num1, num2)
 print(result)

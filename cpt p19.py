@@ -17,6 +17,6 @@ def isValid(s: str) -> bool:
     return len(stack) == 0
 
 
-s={}
+s="[]"
 result=isValid(s)
 print(result)
